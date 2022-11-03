@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "778800cf3a6ceb598b1b",
+    "revision": "981dd1b9d4d61ec9b904",
     "url": "/jerichofillon/static/css/main.4fddea5f.chunk.css"
   },
   {
-    "revision": "778800cf3a6ceb598b1b",
-    "url": "/jerichofillon/static/js/main.778800cf.chunk.js"
+    "revision": "981dd1b9d4d61ec9b904",
+    "url": "/jerichofillon/static/js/main.981dd1b9.chunk.js"
   },
   {
     "revision": "2c80ac1fe2aa0d16567f",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/jerichofillon/static/media/speech-bubble.f1819251.svg"
   },
   {
-    "revision": "90b59fcdaa47c3812268231f9b9c6576",
+    "revision": "956f3610b19308a9ef693655f57dcf57",
     "url": "/jerichofillon/index.html"
   }
 ];
