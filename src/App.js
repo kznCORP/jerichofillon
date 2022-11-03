@@ -11,8 +11,8 @@ const App = () => {
     <div className="App">
       <div className="noisyBackground"></div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/info" element={<About />} />
+        <Route path="https://kzncorp.github.io/jerichofillon/" element={<Home />} />
+        <Route path="https://kzncorp.github.io/jerichofillon/info" element={<About />} />
       </Routes>
     </div>
   );
