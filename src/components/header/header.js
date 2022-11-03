@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import "./header.css";
 
 const Header = (props) => {
@@ -29,12 +29,12 @@ const Header = (props) => {
         </h6>
       </div>
 
-      <a href={path} id="headerInfoLink">
+      <NavLink to={path} id="headerInfoLink">
         <div className="headerInfo">
           <h4 id="headerInfo">{headerLink}</h4>
           <span id="plus">+</span>
         </div>
-      </a>
+      </NavLink>
     </header>
   );
 };
