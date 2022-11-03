@@ -1,0 +1,26 @@
+/* Footer */
+.copyrightWrapper {
+  position: absolute;
+  bottom: 2%;
+  right: 1.5em;
+}
+
+#copyright {
+  color: #555;
+  font-size: 0.8em;
+}
+
+#streak {
+  position: absolute;
+  bottom: 0%;
+  background-color: #2c73fe;
+  height: 5px;
+  width: 100vw;
+}
+
+/* Devices with 768px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 768px) {
+  .copyrightWrapper {
+    display: none;
+  }
+}

@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+import "./App.css";
+
+import Home from "./pages/home";
+import About from "./pages/about";
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="noisyBackground"></div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/info" element={<About />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;
+
+/* 
+  Project Checkpoint
+
+  1) Pages folder contains home.js and info.js
+  - Each [page].js should only have components rendered
+  - Abstraction, each component should only do one thing, and that's rendering one element.
+
+  2) Installed GH pages, onto optimizing everything else.
+
+*/

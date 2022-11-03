@@ -1,0 +1,173 @@
+/* Info Page */
+#infoContent {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#info {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25em;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Avatar */
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.avatar {
+  width: 5rem;
+}
+
+/* Name */
+.infoNameWrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+#infoName {
+  color: #fff;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+#infoPronoun {
+  color: #555;
+  margin-left: 1em;
+  margin-bottom: 0.25em;
+  font-size: 0.8em;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+}
+
+/* Description */
+.infoOccupation {
+  width: 60%;
+}
+
+.infoSlogan {
+  width: 80%;
+}
+
+.infoDesc {
+  position: relative;
+  color: #fff;
+  letter-spacing: -0.2px;
+  text-align: start;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3em;
+  gap: 1em;
+}
+
+#conceptDesign {
+  display: flex;
+  align-items: center;
+  padding-left: 0.15em;
+  width: 2.2em;
+  height: 1.2em;
+  background-color: #777;
+  border-radius: 5em;
+}
+
+#finalDeliverables {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 0.15em;
+  width: 2.2em;
+  height: 1.2em;
+  background-color: #66da64;
+  border-radius: 5em;
+}
+
+.switch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: #fff;
+  border-radius: 5em;
+}
+
+.infoMore {
+  margin-top: 0.5em;
+  width: 75%;
+}
+
+#moreDesc {
+  color: #999;
+  font-weight: 600;
+}
+
+#gradientText {
+  background: -webkit-linear-gradient(left, #2c73fe, #b9ffb8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tenure {
+  background: -webkit-linear-gradient(90deg, #2c73fe, #66da64);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Devices with 1200px width and below. (Laptops and Desktops) */
+@media only screen and (max-width: 1400px) {
+  .infoOccupation {
+    width: 80%;
+  }
+
+  .infoSlogan {
+    width: 100%;
+  }
+}
+
+/* Devices with 768px width and below. (Phone and Tablets) */
+@media only screen and (max-width: 768px) {
+  #infoContent {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 4em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+  }
+
+  #info {
+    width: 100%;
+    row-gap: 2em;
+    margin-top: 4em;
+  }
+
+  .avatar {
+    position: relative;
+    left: -1em;
+    bottom: -1.5em;
+    transform: scale(0.65);
+  }
+
+  .infoNameWrapper {
+    display: none;
+  }
+
+  .infoOccupation,
+  .infoSlogan,
+  .infoMore {
+    width: 100%;
+  }
+}
