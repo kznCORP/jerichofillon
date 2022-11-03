@@ -1,11 +1,11 @@
 {
   "main.css": "/jerichofillon/static/css/main.467e0555.chunk.css",
-  "main.js": "/jerichofillon/static/js/main.05c500a9.chunk.js",
-  "main.js.map": "/jerichofillon/static/js/main.05c500a9.chunk.js.map",
+  "main.js": "/jerichofillon/static/js/main.53b66115.chunk.js",
+  "main.js.map": "/jerichofillon/static/js/main.53b66115.chunk.js.map",
   "static/js/1.aa1ef92c.chunk.js": "/jerichofillon/static/js/1.aa1ef92c.chunk.js",
   "static/js/1.aa1ef92c.chunk.js.map": "/jerichofillon/static/js/1.aa1ef92c.chunk.js.map",
-  "static/js/2.66f0aa68.chunk.js": "/jerichofillon/static/js/2.66f0aa68.chunk.js",
-  "static/js/2.66f0aa68.chunk.js.map": "/jerichofillon/static/js/2.66f0aa68.chunk.js.map",
+  "static/js/2.acf1179b.chunk.js": "/jerichofillon/static/js/2.acf1179b.chunk.js",
+  "static/js/2.acf1179b.chunk.js.map": "/jerichofillon/static/js/2.acf1179b.chunk.js.map",
   "runtime~main.js": "/jerichofillon/static/js/runtime~main.cfb1c480.js",
   "runtime~main.js.map": "/jerichofillon/static/js/runtime~main.cfb1c480.js.map",
   "static/media/avatar.png": "/jerichofillon/static/media/avatar.fc01badb.png",
@@ -14,6 +14,6 @@
   "static/media/speech-bubble.f1819251.svg": "/jerichofillon/static/media/speech-bubble.f1819251.svg",
   "static/css/main.467e0555.chunk.css.map": "/jerichofillon/static/css/main.467e0555.chunk.css.map",
   "index.html": "/jerichofillon/index.html",
-  "precache-manifest.453c3d8f465d6bd7fa13dd0b21f9a802.js": "/jerichofillon/precache-manifest.453c3d8f465d6bd7fa13dd0b21f9a802.js",
+  "precache-manifest.05b561afb3623d0678737ae934ecdac1.js": "/jerichofillon/precache-manifest.05b561afb3623d0678737ae934ecdac1.js",
   "service-worker.js": "/jerichofillon/service-worker.js"
 }
