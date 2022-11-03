@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kznCORP/jerichofillon/precache-manifest.26059850cf259c21d4a33feba5f10857.js"
+  "/jerichofillon/precache-manifest.f5d5df3078d774c216e3c033adbc8b87.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kznCORP/jerichofillon/index.html", {
+workbox.routing.registerNavigationRoute("/jerichofillon/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
