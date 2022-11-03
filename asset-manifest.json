@@ -1,7 +1,7 @@
 {
   "main.css": "/jerichofillon/static/css/main.4fddea5f.chunk.css",
-  "main.js": "/jerichofillon/static/js/main.981dd1b9.chunk.js",
-  "main.js.map": "/jerichofillon/static/js/main.981dd1b9.chunk.js.map",
+  "main.js": "/jerichofillon/static/js/main.4cf16e9b.chunk.js",
+  "main.js.map": "/jerichofillon/static/js/main.4cf16e9b.chunk.js.map",
   "static/js/1.2c80ac1f.chunk.js": "/jerichofillon/static/js/1.2c80ac1f.chunk.js",
   "static/js/1.2c80ac1f.chunk.js.map": "/jerichofillon/static/js/1.2c80ac1f.chunk.js.map",
   "static/js/2.7b78f170.chunk.js": "/jerichofillon/static/js/2.7b78f170.chunk.js",
@@ -14,6 +14,6 @@
   "static/media/speech-bubble.f1819251.svg": "/jerichofillon/static/media/speech-bubble.f1819251.svg",
   "static/css/main.4fddea5f.chunk.css.map": "/jerichofillon/static/css/main.4fddea5f.chunk.css.map",
   "index.html": "/jerichofillon/index.html",
-  "precache-manifest.d2f54ef5404026420ac8d09ccce973d3.js": "/jerichofillon/precache-manifest.d2f54ef5404026420ac8d09ccce973d3.js",
+  "precache-manifest.be8462866e3070d4c104d42faebe0836.js": "/jerichofillon/precache-manifest.be8462866e3070d4c104d42faebe0836.js",
   "service-worker.js": "/jerichofillon/service-worker.js"
 }
