@@ -12,8 +12,8 @@ const App = () => {
       <div className="noisyBackground"></div>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/info" element={<About />} />
+        <Route path="/jerichofillon" element={<Home />} />
+        <Route path="/jerichofillon/info" element={<About />} />
       </Routes>
     </div>
   );
