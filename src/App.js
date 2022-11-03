@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter, Route, Routes, useLocation } from "react-router-dom";
 
 import "./App.css";
 
@@ -12,11 +12,12 @@ const App = () => {
   return (
     <div className="App">
       <div className="noisyBackground"></div>
-
-      <Routes key={location.pathname} location={location}>
-        <Route path="/" element={<Home />} />
-        <Route path="/info" element={<About />} />
-      </Routes>
+      <HashRouter basename="/">
+        <Routes key={location.pathname} location={location}>
+          <Route path="/" element={<Home />} />
+          <Route path="/info" element={<About />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 };
