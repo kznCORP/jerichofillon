@@ -26,42 +26,31 @@ img {
 }
 
 .avatar {
-  width: 5rem;
-}
-
-/* Name */
-.infoNameWrapper {
-  display: flex;
-  align-items: flex-end;
-}
-
-#infoName {
-  color: #fff;
-  font-size: 1.75em;
-  text-transform: uppercase;
-  letter-spacing: -0.02em;
-}
-
-#infoPronoun {
-  color: #555;
-  margin-left: 1em;
-  margin-bottom: 0.25em;
-  font-size: 0.8em;
-  font-weight: 200;
-  letter-spacing: -0.02em;
+  width: 4rem;
 }
 
 /* Description */
-.infoOccupation {
-  width: 60%;
+#infoOccupation {
+  width: 80%;
 }
 
-.infoSlogan {
+#infoSlogan {
   width: 80%;
+}
+
+#infoPassion {
+  width: 75%;
+}
+
+#infoProvide {
+  margin-top: 5em;
+  margin-bottom: 0.5em;
 }
 
 .infoDesc {
   position: relative;
+  margin-bottom: 0.25em;
+  line-height: 1.25em;
   color: #fff;
   letter-spacing: -0.2px;
   text-align: start;
@@ -70,7 +59,8 @@ img {
 .iconWrapper {
   display: flex;
   align-items: center;
-  margin-top: 0.3em;
+  justify-content: center;
+  margin: 0.3em 0;
   gap: 1em;
 }
 
@@ -91,7 +81,7 @@ img {
   padding-right: 0.15em;
   width: 2.2em;
   height: 1.2em;
-  background-color: #66da64;
+  background-color: #2c73fe;
   border-radius: 5em;
 }
 
@@ -103,38 +93,54 @@ img {
   border-radius: 5em;
 }
 
-.infoMore {
-  margin-top: 0.5em;
-  width: 75%;
-}
-
-#moreDesc {
-  color: #999;
-  font-weight: 600;
-}
-
-#gradientText {
-  background: -webkit-linear-gradient(left, #2c73fe, #b9ffb8);
+.tenure {
+  background: -webkit-linear-gradient(90deg, #8db3ff, #e398f8);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#tenure {
-  background: -webkit-linear-gradient(90deg, #2c73fe, #66da64);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.icons {
+  width: 2.5em;
+  margin-right: 1.25em;
 }
 
-/* Devices with 1200px width and below. (Laptops and Desktops) */
+.processContainer {
+  display: flex;
+  align-items: center;
+}
+
+.processDesc {
+  color: #fff;
+  font-size: 0.85em;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+
+.results {
+  margin-bottom: 0.5em;
+  opacity: 0.3;
+  font-size: 0.7em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.reminders {
+  color: #ffd66c;
+}
+
+/* Devices with 1400px width and below. (Laptops and Desktops) */
 @media only screen and (max-width: 1400px) {
-  .infoOccupation {
+  #infoOccupation {
     width: 80%;
   }
 
-  .infoSlogan {
+  #infoSlogan {
     width: 100%;
+  }
+
+  #infoPassion {
+    width: 95%;
   }
 }
 
@@ -154,6 +160,10 @@ img {
     margin-top: 4em;
   }
 
+  .infoDesc {
+    margin-bottom: 0.75em;
+  }
+
   .avatar {
     position: relative;
     left: -1em;
@@ -161,13 +171,13 @@ img {
     transform: scale(0.65);
   }
 
-  .infoNameWrapper {
-    display: none;
+  #infoOccupation,
+  #infoSlogan,
+  #infoPassion {
+    width: 100%;
   }
 
-  .infoOccupation,
-  .infoSlogan,
-  .infoMore {
-    width: 100%;
+  #infoProvide {
+    width: 80%;
   }
 }

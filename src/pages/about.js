@@ -9,7 +9,7 @@ import Footer from "../components/footer/footer.js";
 const About = () => {
   return (
     <>
-      <Header link="Work" displayName={false} />
+      <Header link="Work" title="JF" />
       <section id="infoContent">
         <Info />
         <Contact />

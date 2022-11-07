@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div className="noisyBackground">
-        <Header link="Info" displayName={true} />
+        <Header link="Info" title="Jericho Fillon" />
         <Tunnel />
         <Portfolio />
         <Footer />

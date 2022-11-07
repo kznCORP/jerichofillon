@@ -4,13 +4,8 @@ import "./header.css";
 
 const Header = (props) => {
   const headerLink = props.link;
-  const displayName = props.displayName;
-  let hideName;
+  const headerTitle = props.title;
   let path;
-
-  if (!displayName) {
-    hideName = "hidden";
-  }
 
   if (headerLink === "Info") {
     path = "/info";
@@ -21,12 +16,8 @@ const Header = (props) => {
   return (
     <header id="header">
       <div className="headerNameWrapper">
-        <h6 className={hideName} id="headerName">
-          Jericho Fillon
-        </h6>
-        <h6 className={hideName} id="headerPronoun">
-          he/him
-        </h6>
+        <h6 id="headerName">{headerTitle}</h6>
+        <h6 id="headerPronoun">he/him</h6>
       </div>
 
       <NavLink to={path} id="headerInfoLink">

@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <div id="contactMe">
       <div className="contactWrapper">
+        <h5 className="availability">Open Availability</h5>
         <h2 className="contactInfo">Let's talk about your next project.</h2>
 
         <a

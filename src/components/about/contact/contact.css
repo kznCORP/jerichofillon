@@ -8,9 +8,17 @@
   justify-content: center;
 }
 
+.availability {
+  margin-bottom: 1em;
+  color: #aaa;
+  opacity: 0.3;
+  text-align: center;
+  letter-spacing: -0.2px;
+}
+
 .contactInfo {
   color: #fff;
-  font-size: 1.25em;
+  font-size: 1.5em;
   text-align: center;
   letter-spacing: -0.2px;
 }
@@ -49,6 +57,7 @@
 
 #consultation h4 {
   color: #aaa;
+  opacity: 0.5;
   font-weight: 200;
   font-size: 0.8em;
   text-decoration: underline;
@@ -84,5 +93,9 @@
 
   .contactMail {
     font-size: 1em;
+  }
+
+  .availability {
+    font-size: 0.7em;
   }
 }
