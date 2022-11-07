@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jerichofillon/precache-manifest.05b561afb3623d0678737ae934ecdac1.js"
+  "/jerichofillon/precache-manifest.0664263c8542f6f5c23254e6768f382c.js"
 );
 
 workbox.clientsClaim();
