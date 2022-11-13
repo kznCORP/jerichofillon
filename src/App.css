@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro");
+
 * {
   margin: 0;
   padding: 0;
@@ -20,23 +22,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.noisyBackground {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.noisyBackground::after {
-  content: "";
-  position: fixed;
-  width: 200vw;
-  height: 200vh;
-  top: -50%;
-  left: -50%;
-  background-image: url("./images/noise.png");
-  opacity: 0.4;
-  z-index: -1;
 }

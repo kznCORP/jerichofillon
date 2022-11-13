@@ -13,12 +13,25 @@
   margin-right: 2em;
 }
 
+#slogan {
+  margin-bottom: 15em;
+}
+
 .sloganDesc {
   text-align: start;
   color: #ddd;
-  font-size: 1.1em;
+  font-size: 1.2em;
   letter-spacing: -0.3px;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.subheading {
+  text-align: start;
+  color: #aaa;
+  font-size: 0.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 2em;
 }
 
 /* Portfolio Elements */
@@ -42,9 +55,13 @@
   align-items: baseline;
   justify-content: space-between;
 
-  color: #555;
   font-size: 0.9em;
+  line-height: 1.5em;
   text-transform: uppercase;
+  background: -webkit-linear-gradient(left, #fff 60%, #555);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #playground {
@@ -75,20 +92,12 @@
 }
 
 #desc {
-  color: #bbb;
+  color: #fff;
   font-weight: 400;
   text-align: start;
   font-size: 0.9em;
+  letter-spacing: 1px;
 }
-
-/* Used for displaying a bullet point beside PF elements */
-/* .portfolioLink:hover > .activeLink {
-  display: block;
-  position: absolute;
-  color: #fff;
-  left: -1.25em;
-  font-weight: 900;
-} */
 
 /* Devices with 768px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 768px) {
@@ -98,11 +107,11 @@
   }
 
   #slogan {
-    margin-bottom: 1.25em;
+    margin-bottom: 50vw;
   }
 
-  .sloganDesc{
-    font-size: 0.95em;
+  .sloganDesc {
+    font-size: 1em;
   }
 
   .portfolioLinkWrapper {

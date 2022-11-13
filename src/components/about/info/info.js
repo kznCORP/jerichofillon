@@ -1,22 +1,12 @@
 import React from "react";
 import "./info.css";
-import avatarPng from "../../../images/avatar.png";
-import avatarWebp from "../../../images/avatar.webp";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
-import ImgWithFallback from "../img-fallback";
 
 const Info = () => {
   return (
     <div id="info">
-      <ImgWithFallback
-        src={avatarWebp}
-        fallback={avatarPng}
-        alt="My avatar displayed as pixel art."
-        className="avatar"
-      />
-
       <article id="infoOccupation">
         <h3 className="infoDesc">
           A <span className="tenure">multidisciplinary Designer</span> focusing
@@ -34,15 +24,18 @@ const Info = () => {
 
       <article id="infoPassion">
         <h3 className="infoDesc">
-          In addition to a passion for experiential design + dev, I have a
+          Driven by a passion for experiential design + dev, I also have a
           special affection for typography and motion graphics.
         </h3>
       </article>
 
       <article id="infoProvide">
-        <h3 className="infoDesc provide">
-          Providing to startups, agencies and local brands for{" "}
-          <span className="tenure">2+ years.</span>
+        <div id="resultsWrapper">
+          <h5 className="processDesc results">Service</h5>
+        </div>
+        <h3 className="provide">
+          Providing digital solutions for startups, agencies and local brands
+          for <span className="tenure">2+ years.</span>
         </h3>
       </article>
 
@@ -98,7 +91,7 @@ const Info = () => {
           </div>
 
           <div className="descWrapper">
-            <h5 className="processDesc">Drive sales.</h5>
+            <h5 className="processDesc">Convert visitors.</h5>
           </div>
         </div>
 
@@ -110,7 +103,7 @@ const Info = () => {
           </div>
 
           <div className="descWrapper">
-            <h5 className="processDesc">Convert visitors.</h5>
+            <h5 className="processDesc">Drive sales.</h5>
           </div>
         </div>
       </div>

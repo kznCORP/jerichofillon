@@ -9,14 +9,14 @@ class Portfolio extends Component {
       <main id="portfolio">
         <div id="portfolioContainer">
           <div id="slogan">
-            <h3 className="sloganDesc">
+            <h6 className="subheading">Portfolio</h6>
+            <h1 className="sloganDesc">
               A collection of work, past and present.
-            </h3>
-            <h3 className="sloganDesc">
+            </h1>
+            <h2 className="sloganDesc">
               Some built for today, for tomorrow, and others for the future.
-            </h3>
+            </h2>
           </div>
-
           <nav className="portfolioMenu" aria-label="Table of Contents">
             <a href="/" role="button" tabIndex="0">
               <div className="portfolioLinkWrapper">
