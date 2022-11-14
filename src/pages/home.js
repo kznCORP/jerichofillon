@@ -2,7 +2,7 @@ import React from "react";
 
 import portalJpg from "../images/portals.jpg";
 import portalWebp from "../images/portals.webp";
-import mobileJpg from "../images/mobile.jpeg";
+import portalMobile from "../images/portal-mobile.jpeg";
 
 import Portal from "../components/hero/portal/portal.js";
 import Portfolio from "../components//hero/portfolio/portfolio.js";
@@ -15,9 +15,9 @@ const Home = () => {
       <Header link="Info" title="Jericho Fillon" />
       <Portal
         src={portalJpg}
-        mobile={mobileJpg}
+        mobile={portalMobile}
         fallback={portalWebp}
-        alt="My avatar displayed as pixel art."
+        alt="A man entering a portal to other experiences."
         className="portal"
       />
       <Portfolio />

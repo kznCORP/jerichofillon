@@ -1,16 +1,17 @@
 /* Tunnel */
-.portalWrapper {
+.duneWrapper {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
-  opacity: 1;
+  bottom: 0;
+  opacity: 0.25;
   z-index: -1;
 }
 
-.portal {
+.dune {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -20,9 +21,6 @@
 
 /* Devices with 768px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 768px) {
-  .portalWrapper {
-    opacity: 0.75;
-  }
 }
 
 @media only screen and (max-width: 468px) {
