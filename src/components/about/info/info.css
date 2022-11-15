@@ -189,4 +189,100 @@
 
 /* Devices with 768px width and below. (Phone and Tablets) */
 @media only screen and (max-width: 768px) {
+  /* Info Page */
+  #info {
+    width: 100%;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
+  /* Biography */
+  .infoOccupation {
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  .infoShape,
+  .infoPassion {
+    width: 100%;
+    font-size: 1.1em;
+    opacity: 0.8;
+  }
+
+  /* Borders */
+  /* Delete when ready to make vertical */
+  #leftBorder,
+  #leftBorder::after,
+  #rightBorder,
+  #rightBorder::after {
+    display: none;
+  }
+
+  /* Approach */
+  .infoProvide {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  #infoProcess {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Process Description */
+  .processContainer {
+    margin: 1.25em 0;
+  }
+
+  .processWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Contact */
+  #contact {
+    padding-bottom: 3em;
+  }
+
+  .contactMe {
+    text-align: start;
+    font-size: 2.5em;
+    color: #fff;
+  }
+
+  .contactContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #contactDesc {
+    width: 100%;
+  }
+
+  #speechBubble {
+    margin-top: 1em;
+    width: 100%;
+
+  }
+
+  .contactMail {
+    font-size: 1.1em;
+  }
+
+  #mail {
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .subheading {
+    font-size: 0.6em;
+    height: 2.5em;
+  }
 }

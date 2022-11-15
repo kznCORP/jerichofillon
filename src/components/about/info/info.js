@@ -106,7 +106,7 @@ const Info = () => {
               rel="noopener noreferrer"
             >
               <div className="contactMailWrapper">
-                <SpeechBubbleSVG />
+                <SpeechBubbleSVG  />
                 <button className="contactMail" id="mail" type="button">
                   <h4>hello@jerichofillon.com</h4>
                 </button>
