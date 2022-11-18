@@ -1,14 +1,12 @@
 import React from "react";
-// Import for React Routers go here.
 
 import duneJpg from "../images/dune.jpeg";
 import duneMobile from "../images/dune-mobile.jpeg";
 
-import Info from "../components/about/info/info.js";
-import Dune from "../components/about/dune/dune.js";
-// import Contact from "../components/about/contact/contact.js";
-import Header from "../components/header/header.js";
-import Footer from "../components/footer/footer.js";
+import Info from "../components/About/info/info.js";
+import Dune from "../components/About/dune/dune.js";
+import Header from "../components/Header/header.js";
+import Footer from "../components/Footer/footer.js";
 
 const About = () => {
   return (

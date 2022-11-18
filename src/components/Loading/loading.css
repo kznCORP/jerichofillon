@@ -1,0 +1,24 @@
+#loadingScreen {
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+
+  overflow: hidden;
+  background-color: #040508;
+}
+
+#loadingBg {
+  width: 100%;
+  height: 100%;
+  background-color: #040508;
+}
+
+#count {
+  float: left;
+  margin-left: 0.25em;
+  color: #fff;
+  font-size: 12em;
+  font-family: "Clash Display", sans-serif;
+}
