@@ -2,7 +2,7 @@ import React from "react";
 
 import "./loading.css";
 
-const Loading = ({count}) => {
+const LoadingScreen = ({count}) => {
   return (
     <>
       <section id="loadingScreen">
@@ -14,4 +14,4 @@ const Loading = ({count}) => {
   );
 };
 
-export default Loading;
+export default LoadingScreen;

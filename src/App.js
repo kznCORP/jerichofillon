@@ -6,7 +6,7 @@ import "./App.css";
 import Home from "./pages/home";
 import About from "./pages/about";
 
-import LoadingScreen from "./components/loading/loading";
+import LoadingScreen from "./components/loading/loading-screen";
 
 const App = () => {
   const location = useLocation();
