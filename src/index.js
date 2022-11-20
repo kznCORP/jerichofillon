@@ -8,10 +8,6 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HashRouter basename="/">
-      <App />
-    </HashRouter> */}
-
     <BrowserRouter basename="/">
       <App />
     </BrowserRouter>

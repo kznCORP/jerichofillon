@@ -42,11 +42,11 @@ const App = () => {
   useLayoutEffect(() => {
     console.log("Run animations.");
     // Using Learn GSAP in 23m by WDS, you can pass objects inside gsap.to(); - Video: 16:58 / 23:21
-    // For example; 
-    // 
+    // For example;
+    //
     // const obj = { x: 0 }
     // gsap.to(obj, { x : 100, duration: 4, onUpdate() => console.log(obj.x)})
-    // 
+    //
     // console will print from 0 to 100;
   });
 
