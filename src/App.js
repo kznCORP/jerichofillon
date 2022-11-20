@@ -1,13 +1,12 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { gsap } from "gsap";
 
 import "./App.css";
 
 import Home from "./pages/home";
 import About from "./pages/about";
 
-import LoadingScreen from "./components/Loading/loading";
+import LoadingScreen from "./components/loading/loading";
 
 const App = () => {
   const location = useLocation();
