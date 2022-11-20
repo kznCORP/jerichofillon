@@ -6,8 +6,8 @@ import portalMobile from "../images/portal-mobile.jpeg";
 
 import Portal from "../components/Hero/Portal/portal.js";
 import Portfolio from "../components/Hero/Portfolio/portfolio.js";
-import Footer from "../components/Footer/footer.js";
 import Header from "../components/Header/header.js";
+import Footer from '../components/Footer/footer.js';
 
 const Home = () => {
   return (
