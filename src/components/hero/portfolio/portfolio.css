@@ -101,6 +101,13 @@
 }
 
 /* Devices with 768px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 1408px) {
+  #slogan {
+    margin-bottom: 10em;
+  }
+}
+
+/* Devices with 768px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 768px) {
   #portfolioContainer {
     margin-left: 1.2em;

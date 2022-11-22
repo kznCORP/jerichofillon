@@ -6,7 +6,6 @@
   top: 0;
 
   overflow: hidden;
-  background-color: #040508;
 }
 
 #loadingBg {
@@ -21,4 +20,10 @@
   color: #fff;
   font-size: 12em;
   font-family: "Clash Display", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  #count {
+    font-size: 7em;
+  }
 }
