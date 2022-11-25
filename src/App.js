@@ -30,16 +30,6 @@ const App = () => {
       }, 100);
     }
 
-    // What our code is doing. Let's clean it up!
-    //
-    // Loading renders
-    // -> useEffect() gets called
-    // -> Timer goes 0-100
-    // -> unmount Loading Screen
-    // -> stop Timer
-    //
-    // Homepage renders
-    // -> portal fade ease-in
     setTimeout(() => {
       clearInterval(timerId);
       console.log("Loading finished.");
@@ -88,10 +78,13 @@ const App = () => {
 
 export default App;
 
-// Using Learn GSAP in 23m by WDS, you can pass objects inside gsap.to(); - Video: 16:58 / 23:21
-// For example;
+// What our code is doing. Let's clean it up!
 //
-// const obj = { x: 0 }
-// gsap.to(obj, { x : 100, duration: 4, onUpdate() => console.log(obj.x)})
+// Loading renders
+// -> useEffect() gets called
+// -> Timer goes 0-100
+// -> unmount Loading Screen
+// -> stop Timer
 //
-// console will print from 0 to 100;
+// Homepage renders
+// -> portal fade ease-in
