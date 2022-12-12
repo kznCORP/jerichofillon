@@ -1,0 +1,255 @@
+#work {
+  height: 88vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background-color: #222;
+  border-radius: 3em 3em 0 0;
+}
+
+#workContainer {
+  margin: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  column-gap: 5em;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "title title title"
+    "proj . tools"
+    "proj . desc"
+    "proj . visit";
+}
+
+/* Headers */
+.wHeaders {
+  margin-bottom: 1em;
+  font-family: "Clash Display", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: start;
+  color: #fff;
+  opacity: 0.3;
+}
+
+/* Title */
+.wTitleWrapper {
+  grid-area: title;
+  margin-bottom: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.workTitle {
+  font-family: "Clash Display", sans-serif;
+  font-size: 4.5vw;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.close {
+  font-family: "Clash Display", sans-serif;
+  font-size: 0.75vw;
+  color: #fff;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Project */
+.wProjectWrapper {
+  grid-area: proj;
+  width: 42.5vw;
+  height: 500px;
+  overflow: hidden;
+}
+
+.wImageWrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wImage {
+  margin-bottom: 2em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* Tools */
+.wToolsWrapper {
+  grid-area: tools;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wTools {
+  margin-bottom: 0.5em;
+  margin-right: 2em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.toolsTitle {
+  margin-left: 1em;
+  font-size: 0.9vw;
+  color: #fff;
+}
+
+.wIcon {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(75, 115, 254, 0.6);
+  border-radius: 1em;
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Description */
+.wDescWrapper {
+  grid-area: desc;
+}
+
+.workDescription {
+  width: 90%;
+  font-size: 1.1vw;
+  font-family: "Neue Haas Grotesk Display", sans-serif;
+  color: #fff;
+  text-align: start;
+}
+
+/* Visit Site Btn */
+.wVisitWrapper {
+  grid-area: visit;
+  position: relative;
+}
+
+.visitBtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 75%;
+  height: 50px;
+  transform: translateX(15%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  border-radius: 0.75em;
+}
+
+.visitSite {
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Devices with 1175px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 1175px) {
+}
+
+/* Devices with 768px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 768px) {
+  #work {
+    top: 10%;
+    height: 100%;
+    border-radius: 2em 2em 0 0;
+  }
+
+  #workContainer {
+    margin: 1.25em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Headers */
+  .wHeaders {
+    margin-bottom: 1.75em;
+    font-size: 2vw;
+  }
+
+  /* Title */
+  .wTitleWrapper {
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+  }
+
+  .workTitle {
+    text-align: start;
+    font-size: 8vw;
+  }
+
+  .close {
+    font-size: 1.5vw;
+    white-space: nowrap;
+  }
+
+  /* Project */
+  .wProjectWrapper {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
+
+
+  /* Tools */
+  .wToolsWrapper {
+    margin-bottom: 2em;
+  }
+
+  .toolsTitle {
+    margin-left: 1em;
+    font-size: 0.8em;
+    color: #fff;
+  }
+
+  .wIcon {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    background-color: rgba(75, 115, 254, 0.6);
+  }
+
+  .star {
+    height: 75%;
+    width: 75%;
+  }
+
+  /* Description */
+  .wDescWrapper {
+    margin-bottom: 3em;
+  }
+
+  .workDescription {
+    width: 100%;
+    font-size: 3.25vw;
+  }
+
+  /* Visit Site Btn */
+  .visitBtn {
+    padding: 2em 0;
+    position: relative;
+  }
+
+  .visitSite {
+    font-size: 4vw;
+  }
+}

@@ -32,7 +32,7 @@
   letter-spacing: -0.02em;
 }
 
-#headerInfoLink {
+#headerLink {
   height: 100%;
   margin-right: 2em;
   color: #fff;
@@ -78,7 +78,7 @@
     font-weight: 200;
   }
 
-  #headerInfoLink {
+  #headerLink {
     margin-right: 1.25em;
   }
 

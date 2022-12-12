@@ -4,9 +4,9 @@ import portalJpg from "../images/portals.jpg";
 import portalWebp from "../images/portals.webp";
 import portalMobile from "../images/portal-mobile.jpeg";
 
+import Header from "../components/header/header.js";
 import Portal from "../components/hero/portal/portal.js";
 import Portfolio from "../components/hero/portfolio/portfolio.js";
-import Header from "../components/header/header.js";
 import Footer from "../components/footer/footer.js";
 
 const Home = () => {

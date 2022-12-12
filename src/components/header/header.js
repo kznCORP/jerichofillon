@@ -15,12 +15,14 @@ const Header = (props) => {
 
   return (
     <header id="header">
-      <div className="headerNameWrapper">
-        <h6 id="headerName">{headerTitle}</h6>
-        <h6 id="headerPronoun">he/him</h6>
-      </div>
+      <NavLink to="/" id="headerLink">
+        <div className="headerNameWrapper">
+          <h6 id="headerName">{headerTitle}</h6>
+          <h6 id="headerPronoun">he/him</h6>
+        </div>
+      </NavLink>
 
-      <NavLink to={path} id="headerInfoLink">
+      <NavLink to={path} id="headerLink">
         <div className="headerInfo">
           <h4 id="headerInfo">{headerLink}</h4>
           <span id="plus">+</span>
