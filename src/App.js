@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
+import gsap from "gsap";
 
 import "./App.css";
 
 import Home from "./pages/home";
 import About from "./pages/about";
-import Work from "./components/work/work";
 
-import projectData from './components/work/data.json'
+import LoadingScreen from './components/loading/loading-screen';
 
 const App = () => {
   const location = useLocation();
