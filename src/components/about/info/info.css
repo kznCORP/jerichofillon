@@ -172,7 +172,7 @@
 
 /* Subheaders */
 .subheading {
-  text-align: start;
+  text-align: center;
   color: #fff;
   opacity: 0.6;
   font-size: 0.7em;
@@ -248,7 +248,7 @@
   }
 
   .contactMe {
-    text-align: start;
+    text-align: center;
     font-size: 2.5em;
     color: #fff;
   }
@@ -267,6 +267,7 @@
 
   #speechBubble {
     margin-top: 1em;
+    margin-bottom: 5em;
     width: 100%;
 
   }
