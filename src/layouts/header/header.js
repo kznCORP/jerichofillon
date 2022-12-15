@@ -1,15 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
   return (
     <header id="header">
       <div className="headerNameWrapper">
-        <NavLink to="/">
+        <Link to="/">
           <h6 id="headerName">Jericho Fillon</h6>
           <h6 id="headerDesc">Web developer + Designer</h6>
-        </NavLink>
+        </Link>
       </div>
     </header>
   );
