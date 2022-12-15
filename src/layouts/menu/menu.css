@@ -1,0 +1,41 @@
+/* Menu */
+#menu {
+  width: 100%;
+  position: fixed;
+  bottom: 3%;
+}
+
+.menuContainer {
+  display: inline-flex;
+  padding: 0.75em 0.25em;
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 0.8em;
+}
+
+.menuItem {
+  margin: 0em 1.5em;
+  font-family: "Clash Display", sans-serif;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 600;
+  line-height: 2em;
+  letter-spacing: 0.5px;
+
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.menuContainer:hover > :not(:hover) {
+  opacity: 0.4;
+}
+
+.menuItem:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* Devices with 400px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 480px) {
+  #menu {
+    bottom: 1.5%;
+  }
+}

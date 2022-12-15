@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./portfolio.css";
 
-class Portfolio extends Component {
+class OldPortfolio extends Component {
   //Scroll through list to highlight elements
 
   render() {
@@ -144,4 +144,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default OldPortfolio;

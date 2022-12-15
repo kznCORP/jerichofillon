@@ -1,0 +1,40 @@
+/* Header */
+#header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.headerNameWrapper {
+  position: fixed;
+  top: 5%;
+}
+
+#headerName {
+  color: #fff;
+  font-size: 2em;
+  height: 1.25em;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#headerDesc {
+  height: 2em;
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0.6;
+  letter-spacing: 0.25em;
+}
+
+/* Devices with 768px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 768px) {
+  #headerName {
+    font-size: 1.3em;
+  }
+}

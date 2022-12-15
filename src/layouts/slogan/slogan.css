@@ -1,0 +1,41 @@
+/* Slogan */
+#slogan {
+  width: 100%;
+  position: fixed;
+  top: 80%;
+}
+
+.sHeader {
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+  font-size: 0.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 2em;
+  letter-spacing: 0.25em;
+}
+
+.sDescription {
+  text-align: center;
+  color: #ddd;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Devices with 600px width and below. (Phones and Tablets) */
+@media only screen and (max-width: 768px) {
+  #slogan {
+    width: 100%;
+    position: fixed;
+    top: 80%;
+  }
+
+  .sHeader {
+    font-size: 0.5em;
+  }
+
+  .sDescription {
+    font-size: 0.9em;
+  }
+}

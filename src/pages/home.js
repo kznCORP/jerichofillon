@@ -4,15 +4,16 @@ import portalJpg from "../images/portals.jpg";
 import portalWebp from "../images/portals.webp";
 import portalMobile from "../images/portal-mobile.jpeg";
 
-import Header from "../components/header/header.js";
-import Portal from "../components/hero/portal/portal.js";
-import Portfolio from "../components/hero/portfolio/portfolio.js";
-import Footer from "../components/footer/footer.js";
+import Header from "../layouts/header/header.js";
+import Portal from "../components/portal/portal.js";
+import Slogan from "../layouts/slogan/slogan";
+import Menu from "../layouts/menu/menu";
+import Footer from "../layouts/footer/footer.js";
 
 const Home = () => {
   return (
     <>
-      <Header link="Info" title="Jericho Fillon" />
+      <Header />
       <Portal
         src={portalJpg}
         mobile={portalMobile}
@@ -20,7 +21,10 @@ const Home = () => {
         alt="A man entering a portal to other experiences."
         className="portal"
       />
-      <Portfolio />
+      <Slogan />
+
+      <Menu />
+
       <Footer />
     </>
   );

@@ -3,15 +3,16 @@ import React from "react";
 import duneJpg from "../images/dune.jpeg";
 import duneMobile from "../images/dune-mobile.jpeg";
 
-import Info from "../components/about/info/info.js";
+import Header from "../layouts/header/header.js";
 import Dune from "../components/about/dune/dune.js";
-import Header from "../components/header/header.js";
-import Footer from "../components/footer/footer.js";
+import Info from "../components/about/info/info.js";
+import Menu from "../layouts/menu/menu";
+import Footer from "../layouts/footer/footer.js";
 
 const About = () => {
   return (
     <>
-      <Header link="Work" title="JF" />
+      <Header />
       <Dune
         src={duneJpg}
         mobile={duneMobile}
@@ -20,6 +21,8 @@ const About = () => {
         className="dune"
       />
       <Info />
+
+      <Menu />
       <Footer />
     </>
   );
