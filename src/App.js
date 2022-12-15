@@ -47,7 +47,7 @@ const App = () => {
       const timeline = gsap.timeline();
       timeline
         .from(".portalWrapper", { opacity: 0, duration: 2, ease: "circ.in" })
-        .from("#header", { opacity: 0,  duration: 1, ease: "circ.in" })
+        .from("#header", { opacity: 0, duration: 1, ease: "circ.in" })
         .from("#slogan", { opacity: 0, duration: 1, ease: "circ.in" })
         .from("#menu", { opacity: 0, duration: 1, ease: "circ.in" });
     }, 4000);
