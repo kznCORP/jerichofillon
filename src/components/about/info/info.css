@@ -172,17 +172,13 @@
 
 /* Subheaders */
 .subheading {
-  text-align: center;
+  text-align: start;
   color: #fff;
   opacity: 0.6;
   font-size: 0.7em;
   font-weight: 500;
   text-transform: uppercase;
   height: 2em;
-}
-
-/* Devices with 1400px width and below. (Laptops and Desktops) */
-@media only screen and (max-width: 1400px) {
 }
 
 /* Devices with 768px width and below. (Phone and Tablets) */
@@ -236,7 +232,7 @@
   }
 
   .processWrapper {
-    margin-top: .5em;
+    margin-top: 0.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,7 +245,7 @@
 
   .contactMe {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.2em;
     color: #fff;
   }
 
@@ -269,7 +265,6 @@
     margin-top: 1em;
     margin-bottom: 5em;
     width: 100%;
-
   }
 
   .contactMail {
@@ -282,6 +277,7 @@
   }
 
   .subheading {
+    text-align: center;
     font-size: 0.6em;
     height: 2.5em;
   }

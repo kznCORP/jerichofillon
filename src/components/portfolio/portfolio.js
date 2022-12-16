@@ -12,7 +12,7 @@ const Portfolio = ({ data }) => {
               <div className="pfCard" id={project.styles} key={project.id}>
                 <div className="pfTop">
                   <div>
-                    <p className="subheading">/ Role</p>
+                    <p className="subheaders">/ Role</p>
 
                     {project.roles.map((role) => {
                       return (
@@ -24,14 +24,14 @@ const Portfolio = ({ data }) => {
                   </div>
 
                   <div className="pfLogoWrapper">
-                    <p className="subheading">/ Logo</p>
+                    <p className="subheaders">/ Logo</p>
                     <img src={project.src} className="pfLogo" alt="Logo" />
                   </div>
                 </div>
 
                 <div className="pfBottom">
                   <div>
-                    <p className="subheading">/ Project</p>
+                    <p className="subheaders">/ Project</p>
                     <a
                       href={project.url}
                       role="button"
