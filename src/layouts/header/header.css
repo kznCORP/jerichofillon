@@ -19,6 +19,7 @@
   font-weight: 800;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  backdrop-filter: blur(2px);
 }
 
 #headerDesc {
@@ -30,6 +31,7 @@
   color: #fff;
   opacity: 0.6;
   letter-spacing: 0.25em;
+  backdrop-filter: blur(2px);
 }
 
 /* Devices with 768px width and below. (Phones and Tablets) */

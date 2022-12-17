@@ -21,7 +21,6 @@ const About = () => {
         className="dune"
       />
       <Info />
-
       <Menu />
       <Footer />
     </>

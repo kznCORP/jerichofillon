@@ -1,7 +1,7 @@
 /* Portfolio */
 #portfolio {
-  min-height: 100vh;
-  height: 100%;
+  height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: center;
   overflow-x: auto;
@@ -143,6 +143,7 @@
 /* Devices with 600px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 600px) {
   #portfolio {
+    height: 90vh;
     padding: 1.5em;
   }
 
@@ -175,6 +176,7 @@
 /* Devices starting with 1400px width and above. (Phones and Tablets) */
 @media only screen and (min-width: 1400px) {
   .pfWrapper:hover > :not(:hover) {
-    opacity: 0.4;
+    opacity: 0.7;
+    filter: blur(1.5px);
   }
 }
