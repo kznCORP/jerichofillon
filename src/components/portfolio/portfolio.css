@@ -2,6 +2,7 @@
 #portfolio {
   height: 100vh;
   min-height: 100%;
+  padding: 1.5em;
   display: flex;
   align-items: center;
   overflow-x: auto;
@@ -143,7 +144,6 @@
 /* Devices with 600px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 600px) {
   #portfolio {
-    height: 90vh;
     padding: 1.5em;
   }
 
