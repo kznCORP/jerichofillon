@@ -4,6 +4,7 @@
   position: fixed;
   top: 90%;
   backdrop-filter: blur(2px);
+  z-index: 99;
 }
 
 .menuContainer {
