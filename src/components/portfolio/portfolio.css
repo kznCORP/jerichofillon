@@ -1,13 +1,17 @@
 /* Portfolio */
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  height: -webkit-fill-available;
+}
+
 #portfolio {
   height: 100vh;
-  min-height: 100%;
   padding: 1.5em;
   display: flex;
   align-items: center;
   overflow-x: auto;
-
-  background-color: #111;
 
   z-index: 10;
   transition: 0.35s;
@@ -143,10 +147,6 @@
 
 /* Devices with 600px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 600px) {
-  #portfolio {
-    padding: 1.5em;
-  }
-
   .pfCard {
     padding: 1.75em;
     min-height: 55vh;

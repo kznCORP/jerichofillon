@@ -10,15 +10,15 @@
 
 body {
   width: 100vw;
-  background: #000;
+  background-color: #111;
 }
 
 .App {
   width: 100%;
-  /* min-height: 100vh; */
   position: relative;
   text-align: center;
-  scroll-behavior: smooth;
+  scroll-behavior: none;
+  overflow: hidden;
 }
 
 a {

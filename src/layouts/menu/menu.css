@@ -2,7 +2,7 @@
 #menu {
   width: 100%;
   position: fixed;
-  bottom: 3%;
+  top: 90%;
   backdrop-filter: blur(2px);
 }
 
@@ -37,6 +37,6 @@
 /* Devices with 400px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 480px) {
   #menu {
-    bottom: 1.5%;
+    top: 87%;
   }
 }

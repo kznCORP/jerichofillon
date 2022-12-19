@@ -10,6 +10,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  background-color: #999;
 }
 
 /* Devices with 415px width and below. (Phones and Tablets) */
