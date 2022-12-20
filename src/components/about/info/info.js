@@ -8,7 +8,7 @@ const Info = () => {
     <>
       <section id="info">
         <div className="infoDescription">
-          <h2 className="descText sbText">
+          <h2 className="descText sbText hidden">
             <span>Based</span>
             <span>in</span>
             <span>Vancouver.</span>

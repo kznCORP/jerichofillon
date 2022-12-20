@@ -96,7 +96,7 @@
   }
 
   .descText {
-    padding: 1em 5.5em;
+    padding: 1em 4em;
     font-size: 0.95em;
   }
 
@@ -106,5 +106,9 @@
     left: 50%;
     bottom: 11%;
     transform: translateX(-50%);
+  }
+
+  .hidden {
+    display: none;
   }
 }
