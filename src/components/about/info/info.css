@@ -1,284 +1,110 @@
-/* Info Page */
+/* Portfolio */
 #info {
+  height: 100vh;
   width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". . ."
+    "left tunnel right"
+    ". mail .";
 }
 
-#aboutMe {
-  padding-top: 15em;
-  text-align: start;
-}
-
-/* Biography */
-.infoOccupation {
-  width: 50%;
-  font-size: 1.5em;
-  font-weight: 600;
-}
-
-.infoShape,
-.infoPassion {
-  width: 50%;
-  margin-top: 1.25em;
-
-  font-size: 1.2em;
-  font-weight: 400;
-  opacity: 0.75;
-}
-
-/* Approach */
-#approach {
-  padding-top: 10em;
-  text-align: start;
-}
-
-.infoProvide {
-  font-size: 1.2em;
-  font-weight: 500;
-}
-
-#infoProcess {
-  margin-top: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.processContainer {
+.infoDescription {
+  grid-area: left;
   width: 100%;
-}
-
-/* Process Description */
-.processWrapper {
-  display: flex;
-  align-items: center;
-}
-
-.processNum {
-  font-family: "Clash Display", sans-serif;
-  color: #555;
-}
-
-.processDesc {
-  width: 75%;
-  color: #fff;
-  opacity: 0.75;
-  font-size: 0.9em;
-  font-weight: 500;
-}
-
-.layers {
-  width: 25%;
-}
-
-/* Borders */
-#leftBorder {
-  width: 1em;
-  height: 5em;
-  border: 0.5px solid #555;
-  position: relative;
-  margin-right: 1em;
-}
-
-#leftBorder:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1em;
-  background-color: #040508;
-  left: 5px;
-  top: -1px;
-  bottom: -1px;
-  z-index: 1;
-}
-
-#rightBorder {
-  width: 1em;
-  height: 5em;
-  border: 0.5px solid #555;
-  position: relative;
-  margin-left: 1em;
-}
-
-#rightBorder:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1em;
-  background-color: #040508;
-  right: 5px;
-  top: -1px;
-  bottom: -1px;
-  z-index: 1;
-}
-
-/* Contact */
-#contact {
-  padding-top: 10em;
-  padding-bottom: 5em;
-  text-align: start;
-}
-
-.contactMe {
-  font-size: 3em;
-  color: #fff;
-}
-
-.contactContainer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#contactDesc {
-  width: 60%;
-}
-
-#speechBubble {
-  width: 40%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contactMailWrapper {
-  position: relative;
+.tunnelWrapper {
+  grid-area: tunnel;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.tunnel {
+  max-width: 100%;
+  height: auto;
+}
+
+.infoAvailability {
+  grid-area: right;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactLink,
 .contactMail {
-  position: absolute;
-  color: #fff;
-  font-size: 1.25em;
-  background-color: transparent;
-  border: none;
-}
-
-#mail {
-  line-height: 30px;
-  border-bottom: 1px solid #fff;
-}
-
-.contactMail:hover {
+  grid-area: mail;
+  color: rgba(256, 256, 256, 0.75);
+  font-size: 0.9em;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
   cursor: pointer;
+
+  background-color: transparent;
+  text-decoration: none;
 }
 
-/* Descriptions */
-.infoDesc {
-  color: #fff;
+.contactMail {
+  padding: 0.75em 2em;
+  border: 0.5px solid rgba(256, 256, 256, 0.3);
+  border-radius: 5em;
 }
 
-/* Subheaders */
-.subheading {
-  text-align: start;
-  color: #fff;
-  opacity: 0.6;
-  font-size: 0.7em;
+.sbText {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  opacity: 0.3;
+}
+
+.descText {
+  padding: 0.5em 4em;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: normal;
   font-weight: 500;
-  text-transform: uppercase;
-  height: 2em;
+  font-size: 1.05em;
+  text-align: justify;
+  letter-spacing: -0.02px;
+  color: #fff;
 }
 
-/* Devices with 768px width and below. (Phone and Tablets) */
-@media only screen and (max-width: 768px) {
-  /* Info Page */
+@media only screen and (max-width: 992px) {
   #info {
-    width: 100%;
-    padding-left: 1.25em;
-    padding-right: 1.25em;
-  }
-
-  /* Biography */
-  .infoOccupation {
-    width: 100%;
-    font-size: 1.3em;
-    font-weight: 600;
-  }
-
-  .infoShape,
-  .infoPassion {
-    width: 100%;
-    font-size: 1.1em;
-    opacity: 0.8;
-  }
-
-  /* Borders */
-  /* Delete when ready to make vertical */
-  #leftBorder,
-  #leftBorder::after,
-  #rightBorder,
-  #rightBorder::after {
-    display: none;
-  }
-
-  /* Approach */
-  .infoProvide {
-    font-size: 1.2em;
-    font-weight: 600;
-  }
-
-  #infoProcess {
-    margin-top: 1em;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
-  /* Process Description */
-  .processContainer {
-    margin: 1.25em 0;
+  .infoDescription {
+    margin-top: 10em;
   }
 
-  .processWrapper {
-    margin-top: 0.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .infoAvailability {
+    margin-bottom: 15em;
   }
 
-  /* Contact */
-  #contact {
-    padding-bottom: 3em;
+  .descText {
+    padding: 1em 5.5em;
+    font-size: 0.95em;
   }
 
-  .contactMe {
-    text-align: center;
-    font-size: 1.2em;
-    color: #fff;
-  }
-
-  .contactContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #contactDesc {
-    width: 100%;
-  }
-
-  #speechBubble {
-    margin-top: 1em;
-    margin-bottom: 5em;
-    width: 100%;
-  }
-
+  .contactLink,
   .contactMail {
-    font-size: 1.1em;
-  }
-
-  #mail {
-    line-height: 25px;
-    border-bottom: 1px solid #fff;
-  }
-
-  .subheading {
-    text-align: center;
-    font-size: 0.6em;
-    height: 2.5em;
+    position: absolute;
+    left: 50%;
+    bottom: 11%;
+    transform: translateX(-50%);
   }
 }

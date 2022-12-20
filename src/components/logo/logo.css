@@ -16,6 +16,6 @@
 /* Devices with 415px width and below. (Phones and Tablets) */
 @media only screen and (max-width: 415px) {
   .logoWrapper {
-    top: -5%;
+    top: -7%;
   }
 }

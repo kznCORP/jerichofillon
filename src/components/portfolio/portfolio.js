@@ -26,12 +26,14 @@ const Portfolio = ({ data }) => {
 
                     <div className="pfLogoWrapper">
                       <p className="subheaders">/ Logo</p>
-                      <img src={project.src} className="pfLogo" alt="Logo" />
+                      <a href={project.url}>
+                        <img src={project.src} className="pfLogo" alt="Logo" />
+                      </a>
                     </div>
                   </div>
 
                   <div className="pfBottom">
-                    <div>
+                    <div className="pfName">
                       <p className="subheaders">/ Project</p>
                       <a
                         href={project.url}
@@ -44,7 +46,7 @@ const Portfolio = ({ data }) => {
                       </a>
                     </div>
 
-                    <div>
+                    <div className="pfVisit">
                       <a href={project.url}>
                         <h6 className="pfLink">Visit &#8594;</h6>
                       </a>

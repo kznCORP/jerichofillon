@@ -1,7 +1,7 @@
 import React from "react";
-import "./dune.css";
+import "./tunnel.css";
 
-const Dune = ({
+const Tunnel = ({
   src,
   mobile,
   fallback,
@@ -18,4 +18,4 @@ const Dune = ({
   );
 };
 
-export default Dune;
+export default Tunnel;

@@ -53,11 +53,10 @@ export const projectData = [
       "Providing a digital platform for local businesses to thrive and capitalize on e-commerce opportunities in the market.",
     roles: [
       "Lead Web Designer",
-      "Front End Developer",
       "UI/UX",
       "& Copywriter",
     ],
     url:
       "https://www.figma.com/file/aAGyGOkMmuT7tD6pyipWh0/CannaDiscount?node-id=0%3A1&t=PKAT5eSS0SGrBMOe-1",
-  },
+  }
 ];
